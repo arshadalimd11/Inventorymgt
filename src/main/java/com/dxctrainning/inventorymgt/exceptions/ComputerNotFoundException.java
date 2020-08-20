@@ -1,9 +1,9 @@
 package com.dxctrainning.inventorymgt.exceptions;
 
 public class ComputerNotFoundException extends RuntimeException {
-	public ComputerNotFoundException(String msg) {
+	public ComputerNotFoundException(String msgs) {
 
-		super(msg);
+		super(msgs);
 
 	}
 
