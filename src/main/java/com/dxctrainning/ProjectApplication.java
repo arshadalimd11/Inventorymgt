@@ -25,13 +25,13 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 
-public class ProjectMain {
+public class ProjectApplication {
 
 
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(ProjectMain.class, args);
+		SpringApplication.run(ProjectApplication.class, args);
 
 	}
 
